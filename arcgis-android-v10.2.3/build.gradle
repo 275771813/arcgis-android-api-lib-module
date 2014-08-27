@@ -1,4 +1,4 @@
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 19
@@ -10,10 +10,6 @@ android {
         versionCode 1
         versionName "1.0"
     }
-
-//    ndk{
-//        moduleName "libruntimecore_java"
-//    }
 
     buildTypes {
         release {
